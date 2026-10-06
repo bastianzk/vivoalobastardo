@@ -1,0 +1,20 @@
+body {
+    background-color: #111; /* Fondo oscuro para la página */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    text-align: center;
+    color: white;
+}
+
+.tarjeta img {
+    max-height: 70vh; /* Limita el alto para que no se salga de la pantalla */
+    width: auto;      /* Mantiene la proporción vertical de la foto */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    margin-bottom: 15px;
+}
